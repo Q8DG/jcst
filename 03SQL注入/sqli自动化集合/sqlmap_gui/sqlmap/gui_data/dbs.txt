@@ -1,0 +1,7 @@
+challenges
+sys
+information_schema
+security
+performance_schema
+root
+mysql

